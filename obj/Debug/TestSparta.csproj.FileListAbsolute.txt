@@ -1,0 +1,16 @@
+C:\Users\Rakso\source\repos\TestSparta\bin\Debug\TestSparta.exe.config
+C:\Users\Rakso\source\repos\TestSparta\bin\Debug\TestSparta.exe
+C:\Users\Rakso\source\repos\TestSparta\bin\Debug\TestSparta.pdb
+C:\Users\Rakso\source\repos\TestSparta\obj\Debug\TestSparta.csprojAssemblyReference.cache
+C:\Users\Rakso\source\repos\TestSparta\obj\Debug\MainWindow.g.cs
+C:\Users\Rakso\source\repos\TestSparta\obj\Debug\App.g.cs
+C:\Users\Rakso\source\repos\TestSparta\obj\Debug\TestSparta_MarkupCompile.cache
+C:\Users\Rakso\source\repos\TestSparta\obj\Debug\TestSparta_MarkupCompile.lref
+C:\Users\Rakso\source\repos\TestSparta\obj\Debug\MainWindow.baml
+C:\Users\Rakso\source\repos\TestSparta\obj\Debug\TestSparta.g.resources
+C:\Users\Rakso\source\repos\TestSparta\obj\Debug\TestSparta.Properties.Resources.resources
+C:\Users\Rakso\source\repos\TestSparta\obj\Debug\TestSparta.csproj.GenerateResource.cache
+C:\Users\Rakso\source\repos\TestSparta\obj\Debug\TestSparta.csproj.CoreCompileInputs.cache
+C:\Users\Rakso\source\repos\TestSparta\obj\Debug\TestSparta.exe
+C:\Users\Rakso\source\repos\TestSparta\obj\Debug\TestSparta.pdb
+C:\Users\Rakso\source\repos\TestSparta\obj\Debug\GeneratedInternalTypeHelper.g.cs

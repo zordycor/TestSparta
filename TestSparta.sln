@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSparta", "TestSparta.csproj", "{8F4541D6-B947-4CED-A44E-89DCD995499C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestSparta", "..\UnitTestSparta\UnitTestSparta.csproj", "{50DEB9FF-593B-4DBB-93C7-16975F6967EE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8F4541D6-B947-4CED-A44E-89DCD995499C} = {8F4541D6-B947-4CED-A44E-89DCD995499C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F4541D6-B947-4CED-A44E-89DCD995499C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F4541D6-B947-4CED-A44E-89DCD995499C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F4541D6-B947-4CED-A44E-89DCD995499C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F4541D6-B947-4CED-A44E-89DCD995499C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50DEB9FF-593B-4DBB-93C7-16975F6967EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50DEB9FF-593B-4DBB-93C7-16975F6967EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50DEB9FF-593B-4DBB-93C7-16975F6967EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50DEB9FF-593B-4DBB-93C7-16975F6967EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91CC0AFE-1888-4F8A-B0DC-B3220F99303D}
+	EndGlobalSection
+EndGlobal
