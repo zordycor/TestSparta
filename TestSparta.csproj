@@ -46,9 +46,15 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="WindowsBase" />
-    <Reference Include="PresentationCore" />
-    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsBase">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -65,15 +71,15 @@
     </Compile>
     <Compile Include="Converter\PriceToBrushConverter.cs" />
     <Compile Include="Data\Product.cs" />
-    <Compile Include="Logic\ProductHandling.cs" />
+    <Compile Include="View\ProductHandling.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Modelo\ProductInfoModel.cs" />
-    <Compile Include="Modelo\ProductPriceModel.cs" />
+    <Compile Include="Model\ProductInfoModel.cs" />
+    <Compile Include="Model\ProductPriceModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

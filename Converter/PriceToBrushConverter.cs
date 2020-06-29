@@ -9,6 +9,9 @@ namespace TestSparta.Converter
     {
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
+            Console.WriteLine(value.ToString());
+            Console.WriteLine(targetType.ToString());
+            Console.WriteLine(culture.ToString());
             double input = double.Parse((string)value);
             if (input > 10) // HOW TO CHANGE "10" BY CELL FIRST VALUE?
             {

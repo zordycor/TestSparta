@@ -24,6 +24,7 @@ namespace TestSparta
             string[] months = new string[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun" };
             productHandling.InitPriceProducts();
             priceTable = new DataTable();
+            // May skip adding columns if they are already implemented on XAML
             priceTable.Columns.Add("Name");
             foreach (var month in months)
             {
@@ -37,6 +38,7 @@ namespace TestSparta
         {
             string[] infoColumns = new string[] { "Name", "Date", "Group", "Price" };
             productHandling.InitInfoProducts();
+            // May skip adding columns if they are already implemented on XAML
             infoTable = new DataTable();
             foreach (var column in infoColumns)
             {

@@ -16,7 +16,7 @@ namespace TestSparta.Logic
         {
             foreach (var n in productsNumber)
             {
-                product.AddPriceProduct(ProductHandling.DefaultPriceProduct(n));
+                product.AddPriceProduct(ProductHandling.DefaultPriceProduct());
             }
         }
         public void InitInfoProducts()
@@ -27,11 +27,11 @@ namespace TestSparta.Logic
                 product.AddInfoProduct(DefaultInfoProduct(n));
             }
         }
-        public static ProductPriceModel DefaultPriceProduct(int productNumber)
+        public static ProductPriceModel DefaultPriceProduct()
         {
             return new ProductPriceModel()
             {
-                Name = "Product " + productNumber,
+                Name = "Product",
                 Price = 10.ToString("0.00")
                 //Change Price to Random if It's possible to send default Price to BrushConverter
             };
@@ -79,7 +79,7 @@ namespace TestSparta.Logic
         }
         public void AddProduct(int productNumber, DataTable table)
         {
-            ProductPriceModel model = ProductHandling.DefaultPriceProduct(productNumber);
+            ProductPriceModel model = ProductHandling.DefaultPriceProduct();
             product.AddPriceProduct(model);
             RetrievePriceProductsToTable(table);
         }
